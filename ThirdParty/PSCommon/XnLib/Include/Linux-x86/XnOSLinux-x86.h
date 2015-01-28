@@ -111,6 +111,9 @@ typedef	void* XN_THREAD_PARAM;
 /** The mutex lock infinite timeout. */
 #define	XN_WAIT_INFINITE 0xFFFFFFFF
 
+/** Default timeout for read operations that may fail. */
+#define	XN_WAIT_DEFAULT_READ_TIMEOUT 500
+
 //---------------------------------------------------------------------------
 // Mutex
 //---------------------------------------------------------------------------
